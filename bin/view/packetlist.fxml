@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Packet_Controller" prefWidth="1100" prefHeight="435">
+   <children>
+      <Rectangle x="10" y="10" width="1080" height="415" stroke="black" strokeWidth="3" fill="transparent" />
+	  <Rectangle x="850" y="10" width="0.4" height="415" stroke="black" strokeWidth="3" fill="transparent" />
+	  <Rectangle x="851" y="47" width="236" height="1" stroke="black" strokeWidth="3" fill="transparent" />
+	  
+      <Button fx:id="pickButton1" onAction="#packetPickAction" layoutX="855.0" layoutY="14" prefHeight="29" prefWidth="232" text="pick"/>
+      <!-- ListView에 fx:id="packetListView" 지정 -->
+      <ListView fx:id="packetListView" layoutX="15.0" layoutY="15.0" prefHeight="405.0" prefWidth="830.0"/>
+   </children>
+</AnchorPane>
